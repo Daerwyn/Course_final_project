@@ -13,6 +13,7 @@ def browser(request):
 
     options = Options()
     options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
+    options.add_argument('--start-maximized')
     browser = webdriver.Chrome(options=options)
 
     yield browser
