@@ -21,13 +21,11 @@ class ProductPage(BasePage):
         product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text
         product_added_to_basket_message = self.browser.find_element(*ProductPageLocators.
                                                                     PRODUCT_ADDED_TO_BASKET_MESSAGE).text
-        assert product_name == product_added_to_basket_message, f"The product name in message " \
-                                                                f"should be \"{product_name}\" " \
-                                                                f"instead of \"{product_added_to_basket_message}\""
+        assert product_name == product_added_to_basket_message, \
+            f"The product name in message should be \"{product_name}\" instead of \"{product_added_to_basket_message}\""
 
     def price_is_the_same(self):
         product_price = self.browser.find_element(*ProductPageLocators.PRODUCT_PRICE).text
         basket_sum_price = self.browser.find_element(*ProductPageLocators.BASKET_SUM_PRICE).text
-        assert product_price == basket_sum_price, f"The total price of the items in the cart " \
-                                                  f"should be \"{product_price}\" " \
-                                                  f"instead of \"{basket_sum_price}\""
+        assert product_price == basket_sum_price, \
+            f"The total price of the items in the cart should be \"{product_price}\" instead of \"{basket_sum_price}\""
