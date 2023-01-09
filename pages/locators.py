@@ -18,3 +18,8 @@ class ProductPageLocators():
     PRODUCT_NAME = (By.CSS_SELECTOR, "div.col-sm-6.product_main h1")
     PRODUCT_PRICE = (By.CSS_SELECTOR, "p.price_color")
     SUCCESS_MESSAGE = (By.XPATH, "//div[@id='messages']/child::*[position()=1]")
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
