@@ -10,7 +10,7 @@ class ProductPage(BasePage):
         self.solve_quiz_and_get_code()
 
     def should_be_product_added_to_basket_message(self):
-        assert self.is_element_present(*ProductPageLocators.PRODUCT_ADDED_TO_BASKET_MESSAGE),\
+        assert self.is_element_present(*ProductPageLocators.PRODUCT_ADDED_TO_BASKET_MESSAGE), \
             "There is no message indicating that the item has been added to the cart on the page"
 
     def should_be_basket_sum_price_message(self):
