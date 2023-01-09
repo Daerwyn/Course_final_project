@@ -17,3 +17,4 @@ class ProductPageLocators():
     PRODUCT_ADDED_TO_BASKET_MESSAGE = (By.XPATH, "//div[@id='messages']/child::*[position()=1]//strong")
     PRODUCT_NAME = (By.CSS_SELECTOR, "div.col-sm-6.product_main h1")
     PRODUCT_PRICE = (By.CSS_SELECTOR, "p.price_color")
+    SUCCESS_MESSAGE = (By.XPATH, "//div[@id='messages']/child::*[position()=1]")
