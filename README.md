@@ -42,8 +42,8 @@ The above command runs all test cases in the project. Please ensure that you hav
 ## Debugging and Troubleshooting
 
 - If the test fails due to element not being found, check if the locators are correct.
-- if the browser is not working as expected, try updating the browser and webdriver versions.
-- For more detailed logging and information during test execution, you can use the -s option when running the tests.
+- If the browser is not working as expected, try updating the browser and webdriver versions.
+- For more detailed logging and information during test execution, you can use the `-s` option when running the tests.
 
 ## Disclaimer
 
