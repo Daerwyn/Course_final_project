@@ -1,4 +1,4 @@
-# Navigating the Automation Landscape with Selenium and Python
+<p align="center"><h1>Navigating the Automation Landscape with Selenium and Python🐍</h1></p>
 
 This project contains an automated test suite written in Python using the **Pytest** framework and **Selenium** webdriver. The test suite was created as part of a learning exercise while studying automated testing with Selenium and Python. It tests the functionality of a sample e-commerce website, which serves as a template for a real-world e-commerce site. The goal of this project is to provide a foundation for understanding and utilizing automated testing with Selenium and Python.
 
